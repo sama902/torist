@@ -24,7 +24,7 @@ header{
     padding-left: 30px;
 }
 .navigation a:hover {
-    color: #601cfc;
+    color: green;
 }
 .card {
     background-color: #fff;
