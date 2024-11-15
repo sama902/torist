@@ -1,0 +1,54 @@
+.root {
+    --main-blue: rgba(75, 223, 139, 0.8);
+}
+header{
+    background-color: var(--main-blue);
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+}
+.logo{
+    text-decoration: none;
+    color: var(--main-blue);
+    text-transform: uppercase;
+}
+.navigation a {
+    text-decoration: none;
+    color: var(--main-blue);
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navigation a:hover {
+    color: #601cfc;
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
